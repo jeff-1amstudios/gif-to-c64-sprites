@@ -11,6 +11,7 @@
   "dependencies": {
     "bluebird": "^3.4.0",
     "get-pixels": "^3.3.0",
-    "gifsicle": "^3.0.3"
+    "gifsicle": "^3.0.3",
+    "minimist": "^1.2.0"
   }
 }
