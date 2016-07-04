@@ -25,6 +25,7 @@ By default this is 0. Change this number to start converting frames from a speci
 
 ### Usage:
 ```
+npm install
 node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 output.spr
 ```
 
