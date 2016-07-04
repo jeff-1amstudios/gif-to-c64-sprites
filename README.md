@@ -27,3 +27,8 @@ By default this is 0. Change this number to start converting frames from a speci
 ```
 node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 output.spr
 ```
+
+### Commodore64 example application
+In the `c64-sample-app` directory is a simple c64 assembly language program which will render a double-sized sprite.
+
+![](/sample-screenshot.jpg)
