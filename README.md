@@ -4,6 +4,13 @@ An animated gif is converted to c64 hardware sprite format with these steps
  - Each frame is resized to 24x21 (or 48x42 with the `doubleSize` option)
  - If a pixel is fully white, it is assumed to be the background and is skipped. Any other color means the c64 sprite pixel is set.
 
+### Usage:
+```
+npm install
+node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 output.spr
+```
+
+
 ### Options:
 ```
 --doubleSize
@@ -21,13 +28,6 @@ By default this is 240.  You may have to reduce this number especially with the 
 --startFrame
 ```
 By default this is 0. Change this number to start converting frames from a specified point. 
-
-
-### Usage:
-```
-npm install
-node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 output.spr
-```
 
 ### Commodore64 example application
 In the `c64-sample-app` directory is a simple c64 assembly language program which will render a double-sized sprite.
