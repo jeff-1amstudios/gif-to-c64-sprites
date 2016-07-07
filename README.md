@@ -7,7 +7,7 @@ An animated gif is converted to c64 hardware sprite format with these steps
 ### Usage:
 ```
 npm install
-node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 output.spr
+node gif-to-sprite.js --doubleSize --maxFrames 200 --startFrame 0 --output output.spr my-animated-gif-file.gif
 ```
 
 
